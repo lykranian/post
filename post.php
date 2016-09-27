@@ -7,7 +7,7 @@ if(empty($short)){
     die('try writin somethin ya?');
 }
 elseif(!empty($short)) {
-  include 'inc.php';
+  include 'include.php';
   
   $cleanshort = htmlspecialchars($short);
   $new = $cleanshort . '<br \><br \>' . "\n";
